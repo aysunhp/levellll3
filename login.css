@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+.container .line {
+  border-top: 1px solid rgba(247, 238, 238, 0.644);
+  width: 45%;
+}
+
+.container p {
+  color: gray;
+  font-size: 16px;
+}
+
+.container p .sign-up {
+  color: #657fa5;
+  text-decoration: underline;
+}
+
+.sign-up .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.sign-up .container .line {
+  border-top: 1px solid rgba(247, 238, 238, 0.644);
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.sign-up .container p {
+  color: gray;
+  font-size: 16px;
+}
+
+.sign-up .container p .sign-in {
+  color: #657fa5;
+  text-decoration: underline;
+}
+.sign-up .container form #name,
+#surname,
+#email,
+#password,
+#userName {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+  border: none;
+  color: black;
+  margin: 0px;
+}
+.sign-up .container form .input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-sign-up {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #090963;
+  border: none;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-sign-up a {
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.sign-up .container .welcome {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.sign-up .container .divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  margin: 25px 0px 50px 0px;
+}
+
+.sign-up .container .divider .line {
+  width: 25%;
+  border-top: 1px solid lightgray;
+}
+.sign-up .container .divider span {
+  color: lightgray;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0px 3px 17px 3px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+main .main-wrapper {
+  flex: 1;
+  overflow-y: auto;
+}
+
+main .image-wrapper {
+  flex: 1;
+  overflow-y: auto;
+}
+main .main-wrapper .container .welcome {
+  font-size: 55px;
+}
+
+main .main-wrapper .container .login-google {
+  box-sizing: border-box;
+  width: 45%;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+main .main-wrapper .container .login-google svg {
+  position: absolute;
+  left: 4%;
+  top: 25%;
+}
+
+main .main-wrapper .container .divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  margin: 15px 0px;
+}
+
+main .main-wrapper .container .divider .line {
+  width: 26%;
+  border-top: 1px solid lightgray;
+}
+
+main .main-wrapper .container .divider span {
+  color: lightgray;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 0px 3px;
+}
+
+Form {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  gap: 20px;
+}
+
+Form .userName,
+.password {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+  border: none;
+  color: black;
+}
+
+Form .forgot-keep {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+Form .forgot-keep .forgotPass {
+  text-decoration: underline;
+}
+
+Form .forgot-keep .checkbox label {
+  font-size: 13px;
+  font-weight: 520;
+  margin-left: 5px;
+}
+
+Form .forgot-keep .checkbox input {
+  border-color: gray;
+}
+
+Form .log-in {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #090963;
+  position: relative;
+}
+
+Form .log-in a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+
+Form .log-in .arrow-left {
+  position: absolute;
+
+  top: 30%;
+  margin-left: 85%;
+}
+
+main .sign-up-section {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+main .sign-up-section .left-sect {
+  flex: 1;
+  overflow-y: auto;
+}
+main .sign-up-section .image-wrapper {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: 90vh;
+}
+
+.img-wrapper .img {
+  width: 60%;
+  height: 100%;
+  background-image: url("https://fmlmarketing.com/wp-content/uploads/2019/12/Why-Display-Marketing-should-be-on-your-mind-in-2020-FLM-Marketing.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 40%;
+}
